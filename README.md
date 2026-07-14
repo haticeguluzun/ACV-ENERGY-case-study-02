@@ -145,6 +145,35 @@ Proje kapsamında aşağıdaki çıktılar oluşturulmuştur.
 Tüm çıktılar **outputs/** klasörü altında yer almaktadır.
 
 ---
+# 📊 Örnek Çıktılar
+
+## 1. Tüketim Histogramı
+
+![Tüketim Histogramı](notebook2_outputs/grafik2_1_tuketim_histogram.png)
+
+---
+
+## 2. Tüketim Boxplot
+
+![Tüketim Boxplot](notebook2_outputs/grafik2_2_tuketim_boxplot.png)
+
+---
+
+## 3. İlçelere Göre Toplam Tüketim
+
+![İlçe Toplam Tüketim](notebook2_outputs/grafik3_1_ilce_toplam_tuketim.png)
+
+---
+
+## 4. Hesap Sınıfı Dağılımı
+
+![Hesap Sınıfı](notebook2_outputs/grafik_7_hesap_sinifi_dagilim.png)
+
+---
+
+## 5. İlçelerin Tüketim Payı
+
+![İlçe Payı](notebook2_outputs/grafik3_3_ilce_pay_pasta.png)
 
 # 📝 Not
 
