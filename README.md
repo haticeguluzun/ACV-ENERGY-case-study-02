@@ -29,7 +29,7 @@ ACV-ENERGY-case-study-02
 
 # 📚 Notebook İçerikleri
 
-## 📒 Notebook 01 – Veri Keşfi ve Veri Kalitesi
+### 📒 Notebook 01 – Veri Keşfi ve Veri Kalitesi
 
 Bu notebookta;
 
@@ -44,7 +44,7 @@ Bu notebookta;
 
 ---
 
-## 📒 Notebook 02 – Görselleştirme ve Keşifsel Veri Analizi
+### 📒 Notebook 02 – Görselleştirme ve Keşifsel Veri Analizi
 
 Bu notebookta;
 
@@ -58,7 +58,7 @@ Bu notebookta;
 
 ---
 
-## 📒 Notebook 03 – Veri Hikâyesi ve İş Analizi
+### 📒 Notebook 03 – Veri Hikâyesi ve İş Analizi
 
 Bu notebookta;
 
