@@ -100,7 +100,6 @@ Notebook 01 çalıştırıldığında aşağıdaki ara veri dosyaları başarıy
 - `tahakkuk_isaretli_tam_veri.csv`
 
 Bu dosyalar, orijinal veri setinin işlenmiş türevlerini içermekte olup dosya boyutlarının oldukça büyük olması nedeniyle GitHub deposuna eklenmemiştir.
-
 Bu nedenle GitHub reposunda yalnızca analiz sonuçlarını, özet raporları, görselleştirmeleri ve proje çıktıları paylaşılmıştır.
 Not: Bu dosyalar ilgili notebook çalıştırıldığında otomatik olarak yeniden oluşturulmaktadır.
 
