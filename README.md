@@ -21,11 +21,9 @@ ACV-ENERGY-case-study-02
 │   ├── notebook_02_gorsellestirme.ipynb
 │   └── notebook_03_veri_hikayesi.ipynb
 │
-└── outputs
-    ├── notebook1_ciktilar
-    ├── notebook2_ciktilar
-    └── notebook3_ciktilar
-```
+├── notebook1_outputs
+├── notebook2_outputs
+└── notebook3_outputs
 
 ---
 
@@ -93,7 +91,18 @@ Veri dosyaları  jupyterde çalışmayı kolaylaştırmak amacıyla her sayfa ay
 
 Bu nedenle projede yalnızca notebooklar, analiz çıktıları ve oluşturulan raporlar yer almaktadır.
 
----
+## Büyük Çıktı Dosyaları Hakkında
+
+Notebook 01 çalıştırıldığında aşağıdaki ara veri dosyaları başarıyla oluşturulmaktadır:
+
+- `temizlenmis_veri.csv`
+- `pozitif_tuketim_verisi.csv`
+- `tahakkuk_isaretli_tam_veri.csv`
+
+Bu dosyalar, orijinal veri setinin işlenmiş türevlerini içermekte olup dosya boyutlarının oldukça büyük olması nedeniyle GitHub deposuna eklenmemiştir.
+
+Bu nedenle GitHub reposunda yalnızca analiz sonuçlarını, özet raporları, görselleştirmeleri ve proje çıktıları paylaşılmıştır.
+Not: Bu dosyalar ilgili notebook çalıştırıldığında otomatik olarak yeniden oluşturulmaktadır.
 
 # 💻 Çalıştırma Ortamı
 
