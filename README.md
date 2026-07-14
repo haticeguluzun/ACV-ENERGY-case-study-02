@@ -2,7 +2,6 @@
 
 ## 📌 Proje Hakkında
 
-Bu depo, **ACV Energy Case Study 02** kapsamında hazırlanmış veri analizi çalışmasını içermektedir.
 
 Çalışmada elektrik tüketim ve tahsilat verileri Python kullanılarak analiz edilmiş, veri kalitesi incelenmiş, görselleştirmeler oluşturulmuş, müşteri segmentasyonu gerçekleştirilmiş ve elde edilen bulgular iş içgörülerine dönüştürülmüştür.
 
