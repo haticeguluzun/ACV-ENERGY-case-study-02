@@ -4,7 +4,7 @@
 
 Bu depo, **ACV Energy Case Study 02** kapsamında hazırlanmış veri analizi çalışmasını içermektedir.
 
-Çalışmada elektrik tüketim ve tahsilat verileri Python kullanılarak analiz edilmiş, veri kalitesi incelenmiş, görselleştirmeler oluşturulmuş, müşteri segmentasyonu yapılmış ve elde edilen bulgular iş içgörülerine dönüştürülmüştür.
+Çalışmada elektrik tüketim ve tahsilat verileri Python kullanılarak analiz edilmiş, veri kalitesi incelenmiş, görselleştirmeler oluşturulmuş, müşteri segmentasyonu gerçekleştirilmiş ve elde edilen bulgular iş içgörülerine dönüştürülmüştür.
 
 ---
 
@@ -24,12 +24,13 @@ ACV-ENERGY-case-study-02
 ├── notebook1_outputs
 ├── notebook2_outputs
 └── notebook3_outputs
+```
 
 ---
 
 # 📚 Notebook İçerikleri
 
-### 📒 Notebook 01 – Veri Keşfi ve Veri Kalitesi
+## 📒 Notebook 01 – Veri Keşfi ve Veri Kalitesi
 
 Bu notebookta;
 
@@ -44,7 +45,7 @@ Bu notebookta;
 
 ---
 
-### 📒 Notebook 02 – Görselleştirme ve Keşifsel Veri Analizi
+## 📒 Notebook 02 – Görselleştirme ve Keşifsel Veri Analizi
 
 Bu notebookta;
 
@@ -58,7 +59,7 @@ Bu notebookta;
 
 ---
 
-### 📒 Notebook 03 – Veri Hikâyesi ve İş Analizi
+## 📒 Notebook 03 – Veri Hikâyesi ve İş Analizi
 
 Bu notebookta;
 
@@ -67,7 +68,7 @@ Bu notebookta;
 - Risk skoru oluşturulmuştur.
 - Müşteri segmentasyonu yapılmıştır.
 - Yönetici özeti hazırlanmıştır.
-- İş geliştirme önerileri sunulmuştur.
+- Stratejik iş önerileri sunulmuştur.
 
 ---
 
@@ -85,37 +86,43 @@ Bu notebookta;
 
 # 📁 Veri Seti
 
-Case kapsamında paylaşılan orijinal veri dosyaları (`veri_1.csv` – `veri_5.csv`) bu GitHub deposuna eklenmemiştir.
+Case Study kapsamında paylaşılan orijinal veri dosyaları (`veri_1.csv` – `veri_5.csv`) organizatörlerin yönlendirmesi doğrultusunda GitHub deposuna eklenmemiştir.
 
-Veri dosyaları  jupyterde çalışmayı kolaylaştırmak amacıyla her sayfa ayrı csv formatına dönüştürülmüş ve öyle kullanılmıiştır. Organizatörlerin yönlendirmesi doğrultusunda bu orijinal veri dosyaları GitHub reposunda paylaşılmamıştır.
+Notebookların geliştirilmesi sırasında çalışma kolaylığı sağlamak amacıyla veri dosyaları ayrı CSV dosyaları halinde kullanılmıştır.
 
-Bu nedenle projede yalnızca notebooklar, analiz çıktıları ve oluşturulan raporlar yer almaktadır.
+Bu nedenle GitHub deposunda yalnızca notebooklar, analiz çıktıları ve oluşturulan raporlar paylaşılmıştır.
 
-## Büyük Çıktı Dosyaları Hakkında
+---
 
-Notebook 01 çalıştırıldığında aşağıdaki ara veri dosyaları başarıyla oluşturulmaktadır:
+## 📁 Büyük Çıktı Dosyaları Hakkında
+
+Notebook 01 çalıştırıldığında aşağıdaki ara veri dosyaları otomatik olarak oluşturulmaktadır:
 
 - `temizlenmis_veri.csv`
 - `pozitif_tuketim_verisi.csv`
 - `tahakkuk_isaretli_tam_veri.csv`
 
-Bu dosyalar, orijinal veri setinin işlenmiş türevlerini içermekte olup dosya boyutlarının oldukça büyük olması nedeniyle GitHub deposuna eklenmemiştir.
-Bu nedenle GitHub reposunda yalnızca analiz sonuçlarını, özet raporları, görselleştirmeleri ve proje çıktıları paylaşılmıştır.
-Not: Bu dosyalar ilgili notebook çalıştırıldığında otomatik olarak yeniden oluşturulmaktadır.
+Bu dosyalar, orijinal veri setinin işlenmiş türevlerini içermektedir.
+
+Dosya boyutlarının büyük olması ve GitHub yükleme sınırları nedeniyle bu dosyalar depoya eklenmemiştir.
+
+Notebooklar çalıştırıldığında ilgili dosyalar otomatik olarak yeniden oluşturulmaktadır.
+
+---
 
 # 💻 Çalıştırma Ortamı
 
 Notebooklar Windows işletim sistemi üzerinde geliştirilmiş ve test edilmiştir.
 
-Kod içerisinde kullanılan veri yolları geliştirme ortamına aittir.
+Kod içerisinde kullanılan dosya yolları geliştirme ortamına aittir.
 
 Örneğin;
 
-```python
+```text
 C:\Users\...\Downloads\veri_1.csv
 ```
 
-Projeyi farklı bir bilgisayarda çalıştıracak kullanıcıların, notebooklarda yer alan veri yollarını kendi bilgisayarlarına göre güncellemeleri gerekmektedir.
+Projeyi farklı bir bilgisayarda çalıştıracak kullanıcıların notebooklarda bulunan dosya yollarını kendi ortamlarına göre güncellemeleri gerekmektedir.
 
 ---
 
@@ -140,11 +147,16 @@ Proje kapsamında aşağıdaki çıktılar oluşturulmuştur.
 - Müşteri segmentasyonu
 - Risk analizleri
 - Excel raporları
-- İş önerileri
+- Stratejik iş önerileri
 
-Tüm çıktılar **outputs/** klasörü altında yer almaktadır.
+Çıktılar notebook bazında aşağıdaki klasörlerde paylaşılmıştır:
+
+- `notebook1_outputs`
+- `notebook2_outputs`
+- `notebook3_outputs`
 
 ---
+
 # 📊 Örnek Çıktılar
 
 ## 1. Tüketim Histogramı
@@ -167,48 +179,61 @@ Tüm çıktılar **outputs/** klasörü altında yer almaktadır.
 
 ## 4. Hesap Sınıfı Dağılımı
 
-![Hesap Sınıfı](notebook2_outputs/grafik_7_hesap_sinifi_dagilim.png)
+![Hesap Sınıfı Dağılımı](notebook2_outputs/grafik_7_hesap_sinifi_dagilim.png)
 
 ---
 
-## 5. İlçelerin Tüketim Payı
+## 5. İlçelerin Toplam Tüketim Payı
 
 ![İlçe Payı](notebook2_outputs/grafik3_3_ilce_pay_pasta.png)
 
-## 🎯 Stratejik Öneriler
+---
 
-Analiz sonucunda aşağıdaki stratejik aksiyonlar önerilmektedir:
+# 🎯 Stratejik Öneriler
 
-### 1. Yüksek Değerli Müşteri Yönetimi
+Analiz sonuçlarına dayanarak aşağıdaki stratejik aksiyonlar önerilmektedir.
+
+## 1. Yüksek Değerli Müşteri Yönetimi
+
 - Yüksek tahakkuk tutarına ve düzenli ödeme davranışına sahip müşteriler için sadakat programları geliştirilebilir.
-- Bu müşterilere otomatik ödeme, dijital fatura ve kişiselleştirilmiş hizmet teklifleri sunulabilir.
+- Otomatik ödeme kullanımını artırmaya yönelik kampanyalar planlanabilir.
+- Dijital fatura ve kişiselleştirilmiş müşteri hizmetleri sunulabilir.
 
-### 2. Tahsilat Riskinin Azaltılması
+## 2. Tahsilat Riskinin Azaltılması
+
 - Yüksek değerli ancak gecikmeli ödeme yapan müşteriler öncelikli takip listesine alınabilir.
-- Erken uyarı, otomatik hatırlatma, ödeme planı ve yapılandırma seçenekleri uygulanabilir.
-- Tahsilat ekipleri müşteri sayısına göre değil, değer ve risk skoruna göre önceliklendirilebilir.
+- Erken uyarı, otomatik hatırlatma ve ödeme planı seçenekleri uygulanabilir.
+- Tahsilat ekipleri değer ve risk skoruna göre önceliklendirilebilir.
 
-### 3. Bölgesel Operasyon Planlaması
+## 3. Bölgesel Operasyon Planlaması
+
 - İlçeler arasındaki tüketim farklılıkları müşteri sayısı, hesap sınıfı dağılımı ve mevsimsellik ile birlikte değerlendirilmelidir.
-- Tüketimin belirli dönemlerde arttığı bölgelerde saha operasyonları ve bakım planları buna göre düzenlenebilir.
+- Tüketimin belirli dönemlerde arttığı bölgelerde operasyon ve bakım planlamaları buna göre yapılabilir.
 
-### 4. Müşteri Segmentlerine Göre İletişim
-- Düzenli ödeme yapan standart müşteriler için düşük maliyetli dijital iletişim kanalları kullanılabilir.
+## 4. Müşteri Segmentlerine Göre İletişim
+
+- Düzenli ödeme yapan müşteriler için dijital iletişim kanalları güçlendirilebilir.
 - Riskli müşteri grupları için SMS, e-posta ve ödeme hatırlatma süreçleri otomatikleştirilebilir.
 
-### 5. Veri Kalitesi ve İzleme
-- Negatif tüketim kayıtları iptal, düzeltme veya mahsuplaşma ihtimalleri açısından ayrıca incelenmelidir.
-- Mükerrer ve aykırı kayıtlar için düzenli kontrol mekanizmaları oluşturulmalıdır.
-- Risk ve değer skorları belirli aralıklarla güncellenerek müşteri davranışındaki değişimler takip edilmelidir.
+## 5. Veri Kalitesi ve İzleme
+
+- Negatif tüketim kayıtları düzenli olarak kontrol edilmelidir.
+- Mükerrer ve aykırı kayıtlar için doğrulama mekanizmaları oluşturulmalıdır.
+- Risk ve değer skorları belirli aralıklarla güncellenerek müşteri davranışındaki değişimler izlenmelidir.
+
+---
 
 # 📝 Not
 
 Bu çalışma **ACV Energy Case Study 02** kapsamında hazırlanmıştır.
 
-Orijinal veri dosyaları organizatörlerin yönlendirmesi doğrultusunda GitHub deposuna eklenmemiştir.
-## 👩‍💻 Geliştirici
+Orijinal veri dosyaları organizatörlerin paylaşım kuralları ve dosya boyutları nedeniyle GitHub deposuna eklenmemiştir.
 
-Hatice Gül Uzun
+---
+
+# 👩‍💻 Geliştirici
+
+**Hatice Gül Uzun**
 
 ACV Energy Case Study 02
 
