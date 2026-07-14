@@ -180,3 +180,10 @@ Tüm çıktılar **outputs/** klasörü altında yer almaktadır.
 Bu çalışma **ACV Energy Case Study 02** kapsamında hazırlanmıştır.
 
 Orijinal veri dosyaları organizatörlerin yönlendirmesi doğrultusunda GitHub deposuna eklenmemiştir.
+## 👩‍💻 Geliştirici
+
+Hatice Gül Uzun
+
+ACV Energy Case Study 02
+
+Python • Pandas • NumPy • Matplotlib • Seaborn
