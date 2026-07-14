@@ -175,6 +175,32 @@ Tüm çıktılar **outputs/** klasörü altında yer almaktadır.
 
 ![İlçe Payı](notebook2_outputs/grafik3_3_ilce_pay_pasta.png)
 
+## 🎯 Stratejik Öneriler
+
+Analiz sonucunda aşağıdaki stratejik aksiyonlar önerilmektedir:
+
+### 1. Yüksek Değerli Müşteri Yönetimi
+- Yüksek tahakkuk tutarına ve düzenli ödeme davranışına sahip müşteriler için sadakat programları geliştirilebilir.
+- Bu müşterilere otomatik ödeme, dijital fatura ve kişiselleştirilmiş hizmet teklifleri sunulabilir.
+
+### 2. Tahsilat Riskinin Azaltılması
+- Yüksek değerli ancak gecikmeli ödeme yapan müşteriler öncelikli takip listesine alınabilir.
+- Erken uyarı, otomatik hatırlatma, ödeme planı ve yapılandırma seçenekleri uygulanabilir.
+- Tahsilat ekipleri müşteri sayısına göre değil, değer ve risk skoruna göre önceliklendirilebilir.
+
+### 3. Bölgesel Operasyon Planlaması
+- İlçeler arasındaki tüketim farklılıkları müşteri sayısı, hesap sınıfı dağılımı ve mevsimsellik ile birlikte değerlendirilmelidir.
+- Tüketimin belirli dönemlerde arttığı bölgelerde saha operasyonları ve bakım planları buna göre düzenlenebilir.
+
+### 4. Müşteri Segmentlerine Göre İletişim
+- Düzenli ödeme yapan standart müşteriler için düşük maliyetli dijital iletişim kanalları kullanılabilir.
+- Riskli müşteri grupları için SMS, e-posta ve ödeme hatırlatma süreçleri otomatikleştirilebilir.
+
+### 5. Veri Kalitesi ve İzleme
+- Negatif tüketim kayıtları iptal, düzeltme veya mahsuplaşma ihtimalleri açısından ayrıca incelenmelidir.
+- Mükerrer ve aykırı kayıtlar için düzenli kontrol mekanizmaları oluşturulmalıdır.
+- Risk ve değer skorları belirli aralıklarla güncellenerek müşteri davranışındaki değişimler takip edilmelidir.
+
 # 📝 Not
 
 Bu çalışma **ACV Energy Case Study 02** kapsamında hazırlanmıştır.
